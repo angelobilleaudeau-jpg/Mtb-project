@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrickEra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">BRICKERA</a>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#community">Community</a>
+      <a href="#about">About</a>
+    </nav>
+    <button id="themeButton" type="button">Night mode</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Independent retro block-game community</p>
+        <h1>Build. Play. Create.</h1>
+        <p class="lead">
+          A fan-made, original community hub inspired by the social creativity
+          of late-2010s block-building games.
+        </p>
+        <a class="button" href="#games">Browse games</a>
+      </div>
+
+      <div class="brick-art" aria-label="Decorative block graphic">
+        <div class="stud s1"></div><div class="stud s2"></div>
+        <div class="stud s3"></div><div class="stud s4"></div>
+      </div>
+    </section>
+
+    <section id="games">
+      <div class="section-title">
+        <h2>Featured games</h2>
+        <button id="shuffleButton" type="button">Shuffle</button>
+      </div>
+
+      <div class="grid" id="gameGrid">
+        <article class="card">
+          <div class="thumbnail red"></div>
+          <h3>Castle Clash</h3>
+          <p>Team arena combat in an original brick-built fortress.</p>
+          <span>1,204 playing</span>
+        </article>
+
+        <article class="card">
+          <div class="thumbnail blue"></div>
+          <h3>Sky Obby</h3>
+          <p>Reach the summit through 50 airborne obstacle stages.</p>
+          <span>829 playing</span>
+        </article>
+
+        <article class="card">
+          <div class="thumbnail gold"></div>
+          <h3>Brick Builder</h3>
+          <p>Create, save, and share your own original block worlds.</p>
+          <span>2,031 playing</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="community" class="notice">
+      <h2>Community first</h2>
+      <p>Use original names, art, game content, and accounts. Be respectful and report unsafe behavior.</p>
+    </section>
+  </main>
+
+  <footer id="about">
+    <p>© 2026 BrickEra. Independent fan project. Not affiliated with or endorsed by Roblox.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
